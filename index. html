@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Raj Shakya's personal portfolio, technical skills and web development projects.">
+  <meta name="author" content="Raj Shakya">
+  <title>Raj Shakya | Developer Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="logo">Raj Shakya<span>.</span></a>
+
+      <button id="menu-btn" aria-label="Toggle navigation"
+        aria-expanded="false">☰</button>
+
+      <ul id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="subtitle">WELCOME TO MY PORTFOLIO</p>
+        <h1>Hi, I'm <span>Raj Shakya</span></h1>
+        <h2>Technology Enthusiast & Web Developer</h2>
+
+        <p>
+          I enjoy learning technology, solving problems and
+          creating websites. I am continuously improving my
+          programming skills through practical projects.
+        </p>
+
+        <a href="#projects" class="btn">Explore My Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+
+      <div class="photo-box">
+        <img src="profile.jpg" alt="Raj Shakya profile photo">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About <span>Me</span></h2>
+
+      <p>
+        My name is Raj Shakya. I have a strong interest in
+        technology, programming and web development. I enjoy
+        understanding how things work and finding solutions
+        to technical problems.
+      </p>
+
+      <p>
+        I know C programming, HTML, CSS and Python. My goal is
+        to improve my practical skills and create useful,
+        attractive and responsive websites.
+      </p>
+    </section>
+
+    <section id="skills" class="section alternate">
+      <h2>My <span>Skills</span></h2>
+
+      <div class="card-container">
+        <article class="card">
+          <h3>HTML</h3>
+          <p>Building webpage structure and content.</p>
+        </article>
+
+        <article class="card">
+          <h3>CSS</h3>
+          <p>Designing layouts, colors and responsive pages.</p>
+        </article>
+
+        <article class="card">
+          <h3>C Programming</h3>
+          <p>Practising programming fundamentals and logic.</p>
+        </article>
+
+        <article class="card">
+          <h3>Python</h3>
+          <p>Developing programming knowledge and coding skills.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>My <span>Projects</span></h2>
+
+      <div class="card-container">
+        <article class="card">
+          <h3>Flipkart Front Page Clone</h3>
+          <p>
+            A Flipkart-inspired front page created using HTML
+            and CSS to practise webpage layouts and styling.
+          </p>
+          <p class="tech">HTML · CSS</p>
+        </article>
+
+        <article class="card">
+          <h3>Personal Portfolio</h3>
+          <p>
+            A website to introduce myself, showcase my skills
+            and share my projects online.
+          </p>
+          <p class="tech">HTML · CSS · JavaScript</p>
+        </article>
+
+        <article class="card">
+          <h3>Future Projects</h3>
+          <p>
+            I will add more projects as I continue learning
+            programming and web development.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section alternate">
+      <h2>Contact <span>Me</span></h2>
+      <p>Thank you for visiting my portfolio!</p>
+
+      <a class="btn"
+         href="https://github.com/rajshakya-tech"
+         target="_blank"
+         rel="noopener noreferrer">
+        My GitHub Profile
+      </a>
+
+      <!-- Add your LinkedIn URL when ready -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Raj Shakya. All rights reserved.</p>
+    <p>Made with HTML, CSS and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
